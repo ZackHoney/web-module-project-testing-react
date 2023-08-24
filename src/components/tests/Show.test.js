@@ -1,7 +1,9 @@
 import React from 'react';
-import { render, fireEvent, screen, userEvent } from '@testing-library/react';
+import { render, fireEvent, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import Show from './../Show';
+import userEvent from '@testing-library/user-event'
+
 
 const testShow = {
     name: 'test name',
